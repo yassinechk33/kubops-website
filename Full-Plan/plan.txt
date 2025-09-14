@@ -1,0 +1,88 @@
+Yes 👌 got you. After the **Hero section**, most professional tech/agency websites follow a **proven flow** that guides the visitor step by step.
+
+Here’s the **typical order after the hero** (with what you can do for Kubops):
+
+---
+
+## 🔹 1. Services / Solutions Overview
+
+👉 Right after the hero, people want to know **what you actually offer**.
+
+* Title: *Nos Services* or *Solutions*
+* 3–6 cards with icons:
+
+  * **Conseil DevOps**
+  * **Migration vers le Cloud**
+  * **Automatisation & CI/CD**
+  * **Sécurité & Monitoring**
+* Each card = icon, short title, 2–3 lines description, “En savoir plus” link.
+
+---
+
+## 🔹 2. Why Choose Us / Key Benefits (Stats or Features)
+
+👉 Show credibility and value.
+
+* Example title: *Pourquoi choisir Kubops ?*
+* 3–4 highlight points (icons or small cards):
+
+  * 99.99% disponibilité
+  * Réduction des coûts IT
+  * Équipe certifiée DevOps
+  * +10 projets réussis
+
+---
+
+## 🔹 3. Social Proof (Logos or Testimonials)
+
+👉 Build trust.
+
+* If you have clients → show **logos**.
+* If not yet → add 2–3 **testimonial placeholders** (“Kubops a transformé notre infrastructure en 3 mois !”).
+
+---
+
+## 🔹 4. About / Team Intro
+
+👉 Humanize your brand.
+
+* Small paragraph about Kubops.
+* Photo of founder/team or an illustration.
+* Call to action: *Découvrez qui nous sommes → À propos*.
+
+---
+
+## 🔹 5. Blog / Resources (Optional now, but good later)
+
+👉 Show expertise.
+
+* Title: *Derniers articles*.
+* 3 blog cards (title, short text, “Lire plus”).
+
+---
+
+## 🔹 6. Final Call to Action (CTA section)
+
+👉 Close strong.
+
+* Title: *Prêt à transformer vos DevOps ?*
+* Button: *Contactez-nous* (primary) + *Planifier un appel* (secondary).
+
+---
+
+## 🔹 7. Footer
+
+👉 Navigation + Contact info.
+
+* Links: Services | À propos | Blog | Contact
+* Social icons (LinkedIn, GitHub, etc.)
+* Copyright © 2025 Kubops Technology
+
+---
+
+✅ So the order is:
+**Hero → Services → Benefits/Why Us → Social Proof → About → Blog → Final CTA → Footer**
+
+---
+
+👉 Do you want me to **start designing the Services section with you (step by step like we did for Hero)** so you can add it now under your hero?

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kubops Technology – Solutions DevOps & Cloud</title>
+  <meta name="description" content="Kubops Technology accompagne les entreprises dans la modernisation avec des solutions DevOps, de migration vers le cloud et d’automatisation. Rapides, sécurisés et évolutifs pour soutenir votre croissance." />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo-kubops.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <div class="kb-container">
+      <div class="logo">
+        <a href="index.html">
+            <svg class="logo-header" width="292" height="194" viewBox="0 0 292 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_140_107)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M125.336 16.4644H37.9643C24.1769 16.4644 13 27.6413 13 41.4287V154.023C13 167.811 24.1769 178.988 37.9643 178.988H125.54L78.756 97.6391L125.336 16.4644Z" fill="#FCBB0C"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M125.395 16.3602H63.1299C49.3424 16.3602 38.1655 27.5371 38.1655 41.3245V153.675C38.1655 167.462 49.3424 178.639 63.1298 178.639H125.34L78.756 97.6384L125.395 16.3602Z" fill="white" fill-opacity="0.24"/>
+                </g>
+                <g id="purple" clip-path="url(#clip1_140_107)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M160.871 16.041C149.902 16.041 139.759 21.9198 134.275 31.4564L105.128 82.1363C99.6577 91.6488 99.6528 103.356 105.116 112.855L134.314 163.624C139.776 173.123 149.878 178.972 160.82 178.972H219.113C230.082 178.972 240.225 173.094 245.709 163.557L274.856 112.877C280.326 103.365 280.331 91.6573 274.869 82.1587L245.671 31.3891C240.208 21.8904 230.106 16.041 219.164 16.041H160.871ZM178.666 65.8075C174.402 65.8075 170.459 68.093 168.326 71.8006L156.995 91.5034C154.868 95.2016 154.866 99.7531 156.99 103.446L168.342 123.184C170.465 126.876 174.393 129.15 178.646 129.15H201.309C205.573 129.15 209.517 126.865 211.649 123.157L222.98 103.455C225.107 99.7564 225.109 95.2049 222.985 91.5121L211.634 71.7744C209.51 68.0816 205.583 65.8075 201.329 65.8075H178.666Z" fill="#4141F9"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M278.957 97.0893C274.757 94.9683 270.056 93.811 265.189 93.811H224C225.021 96.9867 224.68 100.494 222.978 103.454L211.646 123.157C209.514 126.864 205.571 129.15 201.306 129.15H178.644C175.635 129.15 172.79 128.012 170.63 126.039L151.153 159.906C148.345 164.789 146.977 170.25 147.05 175.693C151.25 177.814 155.95 178.972 160.817 178.972H219.11C230.079 178.972 240.222 173.093 245.707 163.556L274.853 112.876C277.661 107.994 279.029 102.533 278.957 97.0893Z" fill="white" fill-opacity="0.11"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_140_107">
+                        <rect width="113" height="163" fill="white" transform="translate(13 16)"/>
+                    </clipPath>
+                    <clipPath id="clip1_140_107">
+                        <rect width="178" height="163" fill="white" transform="translate(101 16)"/>
+                    </clipPath>
+                </defs>
+            </svg>
+        </a>
+        <span id="Kubops">Kubops</span> <span id="Technology">Technology</span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#contact">Blog</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
+        </ul>
+      </nav>
+      <div style="display:flex;gap:10px">
+        <a href="#contact" class="kb-btn kb-btn-secondary">Nous contacter</a>
+        <a href="#signup" class="kb-btn kb-btn-primary">Commencer</a>
+      </div>
+
+      <!-- mobile menu button (shown only on small screens) -->
+      <button class="kb-menu-toggle" aria-controls="kbDrawer" aria-expanded="false">
+        <span class="kb-menu-icon">☰</span>
+      </button>
+    </div>
+  </header>
+
+<!-- only mobile header-->
+
+<aside id="kbDrawer" class="kb-drawer" aria-hidden="true">
+  <div class="kb-drawer__head">
+    <div class="logo d-flex align-items-center gap-2">
+      <a href="index.html">
+        <svg class="logo-header" width="292" height="194" viewBox="0 0 292 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_140_107)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M125.336 16.4644H37.9643C24.1769 16.4644 13 27.6413 13 41.4287V154.023C13 167.811 24.1769 178.988 37.9643 178.988H125.54L78.756 97.6391L125.336 16.4644Z" fill="#FCBB0C"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M125.395 16.3602H63.1299C49.3424 16.3602 38.1655 27.5371 38.1655 41.3245V153.675C38.1655 167.462 49.3424 178.639 63.1298 178.639H125.34L78.756 97.6384L125.395 16.3602Z" fill="white" fill-opacity="0.24"/>
+          </g>
+          <g id="purple" clip-path="url(#clip1_140_107)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M160.871 16.041C149.902 16.041 139.759 21.9198 134.275 31.4564L105.128 82.1363C99.6577 91.6488 99.6528 103.356 105.116 112.855L134.314 163.624C139.776 173.123 149.878 178.972 160.82 178.972H219.113C230.082 178.972 240.225 173.094 245.709 163.557L274.856 112.877C280.326 103.365 280.331 91.6573 274.869 82.1587L245.671 31.3891C240.208 21.8904 230.106 16.041 219.164 16.041H160.871ZM178.666 65.8075C174.402 65.8075 170.459 68.093 168.326 71.8006L156.995 91.5034C154.868 95.2016 154.866 99.7531 156.99 103.446L168.342 123.184C170.465 126.876 174.393 129.15 178.646 129.15H201.309C205.573 129.15 209.517 126.865 211.649 123.157L222.98 103.455C225.107 99.7564 225.109 95.2049 222.985 91.5121L211.634 71.7744C209.51 68.0816 205.583 65.8075 201.329 65.8075H178.666Z" fill="#4141F9"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M278.957 97.0893C274.757 94.9683 270.056 93.811 265.189 93.811H224C225.021 96.9867 224.68 100.494 222.978 103.454L211.646 123.157C209.514 126.864 205.571 129.15 201.306 129.15H178.644C175.635 129.15 172.79 128.012 170.63 126.039L151.153 159.906C148.345 164.789 146.977 170.25 147.05 175.693C151.25 177.814 155.95 178.972 160.817 178.972H219.11C230.079 178.972 240.222 173.093 245.707 163.556L274.853 112.876C277.661 107.994 279.029 102.533 278.957 97.0893Z" fill="white" fill-opacity="0.11"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_140_107">
+              <rect width="113" height="163" fill="white" transform="translate(13 16)"/>
+            </clipPath>
+            <clipPath id="clip1_140_107">
+              <rect width="178" height="163" fill="white" transform="translate(101 16)"/>
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+      <span id="Kubops">Kubops</span> <span id="Technology">Technology</span>
+    </div>
+
+    <button class="kb-drawer__close" aria-label="Fermer le menu">✕ Fermer</button>
+  </div>
+
+  <div class="kb-drawer__body">
+    <div class="kb-drawer__links">
+      <a href="#services" class="kb-drawer__text">Services</a>
+      <a href="#about" class="kb-drawer__text">À propos</a>
+      <a href="#contact" class="kb-drawer__text">Blog</a>
+      <a href="#FAQ" class="kb-drawer__text">FAQ</a>
+    </div>
+
+    <!-- CTA -->
+    <a href="#contact" class="kb-btn kb-btn-primary kb-drawer__cta">Nous contacter</a>
+    <a href="#signup" class="kb-btn kb-btn-primary kb-drawer__cta">Commencer</a>
+  </div>
+</aside>
+
+<!-- backdrop -->
+<div id="kbBackdrop" class="kb-backdrop" hidden></div>
+
+<!-- only mobile header-finish-->
+  <main>
+    <section class="hero-section">
+      <div class="colorone"></div>
+      <div class="colortwo"></div>
+      <div class="colorthree"></div>
+      <div class="colorfour"></div>
+
+      <div class="kb-container hero-inner">
+        <div class="hero-section-left">
+          <h1>Optimisez vos DevOps avec <span id="Kubops">Kubops</span> <span id="Technology">Technology</span></h1>
+          <p>Nous aidons les entreprises à se moderniser avec des solutions DevOps, de migration vers le cloud et d’automatisation — rapides, fiables et évolutives.</p>
+          <div class="shortcuts">
+            <span class="pill">Conseil DevOps</span>
+            <span class="pill">Migration vers le Cloud</span>
+            <span class="pill">Grafana</span>
+            <span class="pill">Kubernetes</span>
+            <span class="pill">CI/CD</span>
+            <span class="pill">Monitoring</span>
+            <span class="pill">Sécurité</span>
+          </div>
+          <div class="hero-btns" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:100px">
+            <a href="#contact" class="kb-btn kb-btn-primary">Demarrer maintenant</a>
+            <a href="#services" class="kb-btn btn-accent">Découvrir nos services</a>
+          </div>
+        </div>
+
+        <div class="hero-section-right">
+          <dotlottie-wc id="lottie"
+            src="https://lottie.host/b3edcbee-72e0-40cb-b3fc-d1c8ae5f6aed/IYefgyb0ff.lottie"
+            style="width: 600px;height: 500px"
+            speed="1"
+            autoplay
+            loop>
+          </dotlottie-wc>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <h1>Nos Offres</h1>
+        <div class="kb-container cards-container">
+            <div class="cards">
+                <div class="cards-icon" class="svg-container flex h-[40vh] items-center justify-center">
+                    <svg id="picto-devops" width="181" height="178" viewBox="0 0 181 178" fill="none">
+                        <path d="M143.126 73.2867C163.15 86.0725 169.258 114.168 156.606 136.082C143.954 157.995 117.433 165.257 97.4088 152.471C77.3842 139.685 71.2766 111.59 83.9284 89.6761C96.5803 67.7625 123.101 60.5008 143.126 73.2867Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M138.664 74.5178C157.175 86.3372 162.826 112.314 151.125 132.581C139.424 152.848 114.901 159.558 96.3896 147.738C77.8785 135.919 72.227 109.942 83.9281 89.6751C95.6291 69.4084 120.152 62.6983 138.664 74.5178Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M134.312 75.7121C151.35 86.5909 156.558 110.506 145.782 129.169C135.007 147.833 112.428 154.006 95.39 143.127C78.3522 132.249 73.1447 108.334 83.9202 89.67C94.6956 71.0064 117.274 64.8333 134.312 75.7121Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M129.936 76.9275C145.486 86.8567 150.246 108.69 140.405 125.735C130.563 142.781 109.948 148.412 94.3969 138.483C78.8463 128.554 74.087 106.72 83.9282 89.6748C93.7694 72.6294 114.385 66.9983 129.936 76.9275Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M125.62 78.12C139.707 87.1145 144.025 106.899 135.103 122.351C126.181 137.804 107.498 142.902 93.411 133.907C79.3242 124.913 75.0061 105.128 83.9277 89.6755C92.8492 74.2229 111.533 69.1254 125.62 78.12Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M121.448 79.2715C134.12 87.3625 138.011 105.166 129.979 119.079C121.946 132.992 105.13 137.573 92.4586 129.482C79.7869 121.391 75.8953 103.588 83.9278 89.6751C91.9604 75.7623 108.776 71.1805 121.448 79.2715Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M116.916 80.5231C128.051 87.6326 131.479 103.285 124.412 115.525C117.345 127.765 102.558 131.786 91.4238 124.677C80.2893 117.567 76.861 101.915 83.9278 89.6753C90.9947 77.4351 105.781 73.4136 116.916 80.5231Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M113.123 81.5705C122.971 87.8585 126.011 101.709 119.753 112.55C113.494 123.39 100.406 126.942 90.5579 120.654C80.7101 114.366 77.6695 100.515 83.9281 89.6752C90.1866 78.8351 103.275 75.2826 113.123 81.5705Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M109.387 82.602C117.968 88.081 120.627 100.159 115.164 109.62C109.702 119.082 98.2857 122.172 89.7048 116.693C81.1239 111.214 78.4652 99.1368 83.9278 89.6753C89.3904 80.2138 100.807 77.1231 109.387 82.602Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M105.257 83.7424C112.436 88.3268 114.673 98.4433 110.09 106.38C105.508 114.317 95.9414 116.897 88.7616 112.313C81.5818 107.728 79.3454 97.612 83.9278 89.6751C88.5102 81.7381 98.0769 79.1581 105.257 83.7424Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M30.4773 97.9159C14.4443 80.383 15.8164 51.6641 33.7088 33.7717C51.6012 15.8794 79.098 15.7292 95.1311 33.2622C111.164 50.7951 109.792 79.514 91.8996 97.4064C74.0072 115.299 46.5103 115.449 30.4773 97.9159Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M35.1062 97.882C20.285 81.6742 21.5494 55.1196 38.0972 38.5719C54.6449 22.0242 80.0694 21.8898 94.8906 38.0976C109.712 54.3054 108.447 80.86 91.8997 97.4077C75.352 113.955 49.9275 114.09 35.1062 97.882Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M39.6183 97.8541C25.9767 82.9363 27.1363 58.4885 42.3751 43.2497C57.6139 28.0109 81.0211 27.8919 94.6627 42.8097C108.304 57.7276 107.145 82.1754 91.9059 97.4142C76.6671 112.653 53.26 112.772 39.6183 97.8541Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M44.1602 97.8128C31.7093 84.1971 32.7631 61.876 46.6806 47.9585C60.5981 34.0409 81.9689 33.9375 94.4198 47.5532C106.871 61.1689 105.817 83.49 91.8994 97.4075C77.9818 111.325 56.6111 111.429 44.1602 97.8128Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M48.6375 97.7784C37.3586 85.4443 38.3082 65.2165 50.9252 52.5995C63.5422 39.9825 82.9086 39.8943 94.1875 52.2284C105.466 64.5624 104.517 84.7902 91.8997 97.4072C79.2827 110.024 59.9163 110.112 48.6375 97.7784Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M52.9651 97.7453C42.8193 86.6503 43.6682 68.4461 55.0279 57.0864C66.3877 45.7266 83.8163 45.6532 93.9622 56.7482C104.108 67.8432 103.259 86.0474 91.8993 97.4071C80.5395 108.767 63.1109 108.84 52.9651 97.7453Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M57.6665 97.7093C48.7515 87.9602 49.491 71.9542 59.4851 61.9602C69.4791 51.9661 84.8029 51.9088 93.718 61.6578C102.633 71.4069 101.894 87.4129 91.8995 97.407C81.9054 107.401 66.5816 107.458 57.6665 97.7093Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M61.6018 97.6797C53.717 89.0572 54.3649 74.8913 63.2158 66.0404C72.0667 57.1894 85.6287 57.1455 93.5135 65.768C101.398 74.3905 100.75 88.5565 91.8995 97.4074C83.0486 106.258 69.4867 106.302 61.6018 97.6797Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M65.4767 97.6502C58.6063 90.137 59.1641 77.7828 66.8894 70.0575C74.6147 62.3322 86.4418 62.3015 93.3122 69.8147C100.183 77.3279 99.6248 89.6821 91.8995 97.4074C84.1743 105.133 72.3472 105.163 65.4767 97.6502Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                        <path d="M69.762 97.6175C64.0134 91.3311 64.4715 80.9805 70.952 74.5C77.4324 68.0196 87.3409 68.0035 93.0896 74.2899C98.8382 80.5763 98.38 90.9269 91.8996 97.4073C85.4191 103.888 75.5106 103.904 69.762 97.6175Z" stroke="var(--yellow)" stroke-width="1.5" stroke-miterlimit="1.11658"></path>
+                    </svg>                            
+                </div>
+                <div class="h3pa">
+                  <h3 id="cards-title">Conseil DevOps</h3>
+                  <p id="cards-description">Pour une facture cloud réduite, une scalabilité multipliée et des déploiements ultra-rapides.</p>
+                  <a id="cards-btn" class="kb-btn kb-btn-secondary" href="#">Voir plus</a> 
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-icon" class="svg-container flex h-[40vh] items-center justify-center">
+                    <svg id="picto-audit" fill="none" viewBox="0 0 199 158">
+                        <path d="M98.5075 31.1255C145.202 31.1255 184.296 60.4814 194.972 99.9469C197.798 110.397 189.166 120.716 177.059 120.716L19.9557 120.716C7.84908 120.716 -0.78274 110.397 2.04264 99.9469C12.7189 60.4814 51.8129 31.1255 98.5075 31.1255Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 21.1504C145.202 21.1504 184.296 50.5063 194.972 89.9718C197.798 100.422 189.166 110.74 177.059 110.74L19.9557 110.74C7.84908 110.74 -0.78274 100.422 2.04264 89.9718C12.7189 50.5063 51.8129 21.1504 98.5075 21.1504Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 11.1752C145.202 11.1752 184.296 40.5311 194.972 79.9966C197.798 90.4471 189.166 100.765 177.059 100.765L19.9557 100.765C7.84908 100.765 -0.78274 90.4471 2.04264 79.9966C12.7189 40.5311 51.8129 11.1752 98.5075 11.1752Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 1.19999C145.202 1.19998 184.296 30.5558 194.972 70.0214C197.798 80.4719 189.166 90.79 177.059 90.79L19.9557 90.79C7.84908 90.79 -0.78274 80.4719 2.04264 70.0214C12.7189 30.5558 51.8129 1.19999 98.5075 1.19999Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                    </svg>
+                </div>
+                <div class="h3pa">
+                  <h3 id="cards-title">Conseil DevOps</h3>
+                  <p id="cards-description">Pour une facture cloud réduite, une scalabilité multipliée et des déploiements ultra-rapides.</p>
+                  <a id="cards-btn" class="kb-btn kb-btn-secondary" href="#">Voir plus</a> 
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-icon" class="svg-container flex h-[40vh] items-center justify-center">
+                    <svg id="picto-formation" fill="none" viewBox="0 0 212 146">
+                        <path d="M1.48487 62.8781C1.48487 33.5127 27.0885 8.62413 62.0194 1.79869C66.716 0.881522 71.3157 1.83179 74.719 3.93712C78.1239 6.04343 80.2549 9.24442 80.2549 12.8424L80.2549 112.914C80.2549 116.512 78.1238 119.713 74.719 121.819C71.3157 123.924 66.716 124.875 62.0194 123.957C27.0885 117.132 1.48487 92.2434 1.48487 62.8781Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M7.39503 62.8781C7.39503 33.5127 32.9986 8.62413 67.9295 1.79869C72.6262 0.881522 77.2259 1.83179 80.6291 3.93712C84.034 6.04343 86.1651 9.24442 86.165 12.8424L86.165 112.914C86.165 116.512 84.034 119.713 80.6291 121.819C77.2259 123.924 72.6262 124.875 67.9295 123.957C32.9987 117.132 7.39502 92.2434 7.39503 62.8781Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M12.3198 62.8781C12.3198 33.5127 37.9235 8.62413 72.8543 1.79869C77.551 0.881522 82.1507 1.83179 85.5539 3.93712C88.9588 6.04343 91.0899 9.24442 91.0899 12.8424L91.0898 112.914C91.0898 116.512 88.9588 119.713 85.5539 121.819C82.1507 123.924 77.551 124.875 72.8543 123.957C37.9235 117.132 12.3198 92.2434 12.3198 62.8781Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M179.74 62.8788C179.74 92.2527 154.444 117.136 119.951 123.959C115.318 124.875 110.781 123.926 107.422 121.823C104.063 119.719 101.955 116.518 101.955 112.914L101.955 12.8431C101.955 9.2392 104.063 6.03854 107.422 3.9349C110.781 1.83181 115.318 0.883003 119.951 1.79892C154.444 8.62194 179.74 33.5048 179.74 62.8788Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M184.665 62.8788C184.665 92.2441 159.061 117.133 124.131 123.958C119.434 124.875 114.834 123.925 111.431 121.82C108.026 119.713 105.895 116.512 105.895 112.914L105.895 12.8431C105.895 9.24512 108.026 6.04413 111.431 3.93781C114.834 1.83248 119.434 0.882215 124.131 1.79939C159.061 8.62478 184.665 33.5134 184.665 62.8788Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M190.575 62.8788C190.575 92.2441 164.972 117.133 130.041 123.958C125.344 124.875 120.744 123.925 117.341 121.82C113.936 119.713 111.805 116.512 111.805 112.914L111.805 12.8431C111.805 9.24512 113.936 6.04413 117.341 3.93781C120.744 1.83248 125.344 0.882215 130.041 1.79939C164.972 8.62478 190.575 33.5134 190.575 62.8788Z" stroke="var(--yellow)" stroke-width="1.5"></path> 
+                    </svg>                            
+                </div>
+                <div class="h3pa">
+                  <h3 id="cards-title">Automatisation & CI/CD</h3>
+                  <p id="cards-description">Pour une facture cloud réduite, une scalabilité multipliée et des déploiements ultra-rapides.</p>
+                  <a id="cards-btn" class="kb-btn kb-btn-secondary" href="#">Voir plus</a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-icon" class="svg-container flex h-[40vh] items-center justify-center">
+                    <svg id="picto-audit" fill="none" viewBox="0 0 199 158">
+                        <path d="M98.5075 31.1255C145.202 31.1255 184.296 60.4814 194.972 99.9469C197.798 110.397 189.166 120.716 177.059 120.716L19.9557 120.716C7.84908 120.716 -0.78274 110.397 2.04264 99.9469C12.7189 60.4814 51.8129 31.1255 98.5075 31.1255Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 21.1504C145.202 21.1504 184.296 50.5063 194.972 89.9718C197.798 100.422 189.166 110.74 177.059 110.74L19.9557 110.74C7.84908 110.74 -0.78274 100.422 2.04264 89.9718C12.7189 50.5063 51.8129 21.1504 98.5075 21.1504Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 11.1752C145.202 11.1752 184.296 40.5311 194.972 79.9966C197.798 90.4471 189.166 100.765 177.059 100.765L19.9557 100.765C7.84908 100.765 -0.78274 90.4471 2.04264 79.9966C12.7189 40.5311 51.8129 11.1752 98.5075 11.1752Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 1.19999C145.202 1.19998 184.296 30.5558 194.972 70.0214C197.798 80.4719 189.166 90.79 177.059 90.79L19.9557 90.79C7.84908 90.79 -0.78274 80.4719 2.04264 70.0214C12.7189 30.5558 51.8129 1.19999 98.5075 1.19999Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                    </svg>
+                </div>
+                <div class="h3pa">
+                  <h3 id="cards-title">Conseil DevOps</h3>
+                  <p id="cards-description">Pour une facture cloud réduite, une scalabilité multipliée et des déploiements ultra-rapides.</p>
+                  <a id="cards-btn" class="kb-btn kb-btn-secondary" href="#">Voir plus</a> 
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-icon" class="svg-container flex h-[40vh] items-center justify-center">
+                    <svg id="picto-audit" fill="none" viewBox="0 0 199 158">
+                        <path d="M98.5075 31.1255C145.202 31.1255 184.296 60.4814 194.972 99.9469C197.798 110.397 189.166 120.716 177.059 120.716L19.9557 120.716C7.84908 120.716 -0.78274 110.397 2.04264 99.9469C12.7189 60.4814 51.8129 31.1255 98.5075 31.1255Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 21.1504C145.202 21.1504 184.296 50.5063 194.972 89.9718C197.798 100.422 189.166 110.74 177.059 110.74L19.9557 110.74C7.84908 110.74 -0.78274 100.422 2.04264 89.9718C12.7189 50.5063 51.8129 21.1504 98.5075 21.1504Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 11.1752C145.202 11.1752 184.296 40.5311 194.972 79.9966C197.798 90.4471 189.166 100.765 177.059 100.765L19.9557 100.765C7.84908 100.765 -0.78274 90.4471 2.04264 79.9966C12.7189 40.5311 51.8129 11.1752 98.5075 11.1752Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 1.19999C145.202 1.19998 184.296 30.5558 194.972 70.0214C197.798 80.4719 189.166 90.79 177.059 90.79L19.9557 90.79C7.84908 90.79 -0.78274 80.4719 2.04264 70.0214C12.7189 30.5558 51.8129 1.19999 98.5075 1.19999Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                    </svg>
+                </div>
+                <div class="h3pa">
+                  <h3 id="cards-title">Conseil DevOps</h3>
+                  <p id="cards-description">Pour une facture cloud réduite, une scalabilité multipliée et des déploiements ultra-rapides.</p>
+                  <a id="cards-btn" class="kb-btn kb-btn-secondary" href="#">Voir plus</a> 
+                </div>
+            </div>
+            <div class="cards">
+                <div class="cards-icon" class="svg-container flex h-[40vh] items-center justify-center">
+                    <svg id="picto-audit" fill="none" viewBox="0 0 199 158">
+                        <path d="M98.5075 31.1255C145.202 31.1255 184.296 60.4814 194.972 99.9469C197.798 110.397 189.166 120.716 177.059 120.716L19.9557 120.716C7.84908 120.716 -0.78274 110.397 2.04264 99.9469C12.7189 60.4814 51.8129 31.1255 98.5075 31.1255Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 21.1504C145.202 21.1504 184.296 50.5063 194.972 89.9718C197.798 100.422 189.166 110.74 177.059 110.74L19.9557 110.74C7.84908 110.74 -0.78274 100.422 2.04264 89.9718C12.7189 50.5063 51.8129 21.1504 98.5075 21.1504Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 11.1752C145.202 11.1752 184.296 40.5311 194.972 79.9966C197.798 90.4471 189.166 100.765 177.059 100.765L19.9557 100.765C7.84908 100.765 -0.78274 90.4471 2.04264 79.9966C12.7189 40.5311 51.8129 11.1752 98.5075 11.1752Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                        <path d="M98.5075 1.19999C145.202 1.19998 184.296 30.5558 194.972 70.0214C197.798 80.4719 189.166 90.79 177.059 90.79L19.9557 90.79C7.84908 90.79 -0.78274 80.4719 2.04264 70.0214C12.7189 30.5558 51.8129 1.19999 98.5075 1.19999Z" stroke="var(--yellow)" stroke-width="1.5"></path>
+                    </svg>
+                </div>
+                <div class="h3pa">
+                  <h3 id="cards-title">Conseil DevOps</h3>
+                  <p id="cards-description">Pour une facture cloud réduite, une scalabilité multipliée et des déploiements ultra-rapides.</p>
+                  <a id="cards-btn" class="kb-btn kb-btn-secondary" href="#">Voir plus</a> 
+                </div>
+            </div>            
+        </div>
+    </section>
+    <section class="partners">
+      <div class="partners__container">
+        <div class="partners__left">
+          <h2>Partenaires & certifications cloud</h2>
+          <p>Notre équipe est certifiée sur AWS, Azure, Google Cloud et Scaleway. 
+            Nous concevons des architectures performantes, sécurisées et rentables,
+            prêtes à encaisser les pics de charge.</p>
+          <a href="#contact" class="kb-btn btn-accent">Nous contacter</a>
+        </div>
+
+        <div class="partners__grid">
+          <a class="partners-cards" href="#" aria-label="Scaleway">
+            <dotlottie-wc class="Scaleway-logo" class="partners-lotties"
+                src="https://lottie.host/a08be691-dc0e-4afb-b58e-d10f1dda9867/wh14cQLWc3.lottie"
+                style="width: 250px;height: 200px"
+                speed="1"
+                autoplay
+                loop
+            ></dotlottie-wc>
+          </a>
+          <a class="partners-cards" href="#" aria-label="Google Cloud">
+            <dotlottie-wc class="Google-logo"
+                src="https://lottie.host/ee7c11c2-05df-454a-9efb-0277c2fd36ee/bGbhrFjrcc.lottie"
+                style="width: 250px;height: 300px"
+                speed="1"
+                autoplay
+                loop
+            ></dotlottie-wc>
+          </a>
+          <a class="partners-cards" href="#" aria-label="Microsoft Azure">
+            <dotlottie-wc class="azure-logo"
+                src="https://lottie.host/6f2c1ea3-0c23-413d-8fa2-c8f8283a67a2/zB5M5MXIyP.lottie"
+                style="width: 150px;height: 200px"
+                speed="1"
+                autoplay
+                loop
+            ></dotlottie-wc>
+          </a>
+          <a class="partners-cards" href="#" aria-label="Amazon Web Services">
+            <dotlottie-wc class="aws-logo"
+                src="https://lottie.host/f529a043-363c-42ca-a8b7-428a44ae7bee/ksZzwNmJJN.lottie"
+                style="width: 250px;height: 300px"
+                speed="1"
+                autoplay
+                loop
+            ></dotlottie-wc>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

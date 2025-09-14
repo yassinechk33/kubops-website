@@ -1,0 +1,15 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build artifacts (if you add tooling later)
+dist/
+node_modules/
+
+# Docker volumes
+docker-data/
